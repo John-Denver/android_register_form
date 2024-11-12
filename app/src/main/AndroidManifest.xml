@@ -16,7 +16,7 @@
 
         <!-- Register Activity (set as the launcher activity) -->
         <activity
-            android:name=".RegisterActivity"
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,10 +28,10 @@
 <!--        <activity android:name=".RegisterActivity" />-->
 
         <!-- Login Activity -->
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
 
         <!-- Home Activity -->
-        <activity android:name=".HomeActivity" />
+        <activity android:name=".LoginActivity" />
 
     </application>
 
